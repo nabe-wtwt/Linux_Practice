@@ -1,0 +1,116 @@
+    1  ls /
+    2  ls /usr
+    3  pwd
+    4  cd /root
+    5  pwd
+    6  cd usr
+    7  cd /usr
+    8  cd pwd
+    9  pwd
+   10  cd /home
+   11  mkdir test1
+   12  ls
+   13  mkdir test2/test3
+   14  mkdir -p test2/test3
+   15  ls test2
+   16  touch test1/index.php
+   17  ls test1
+   18  cd /home/test1 && ls
+   19  cp index.php copy.php
+   20  ls
+   21  cp -r test1 test4
+   22  ls
+   23  cd /home
+   24  cp -r test1 test4
+   25  ls
+   26  la test4
+   27  ls test4
+   28  mv test2/test3 test3
+   29  ls
+   30  mv test4 test1_copy
+   31  ls
+   32  lstest1
+   33  ls test1
+   34  rm test1/copy.php
+   35  rm test1/copy.php
+   36  ls test1
+   37  rm -r test3
+   38  ls
+   39  cd /home
+   40  rm test1_copy/*.php
+   41  ls test1_copy
+   42  echo '# Hello World' > README.md
+   43  cat README.md
+   44  echo '# Server World' > README.md
+   45  cat README.md
+   46  echo 'Linux Practice' >> README.md
+   47  echo '-----------------' >> README.md
+   48  cat README.md
+   49  vi README.md
+   50  vi README.md
+   51  cd /root
+   52  mkdir server_lesson && cd server_lesson
+   53  yum update -y && yum -y install git
+   54  git version
+   55  git init
+   56  touch first.txt
+   57  ls
+   58  mkdir -p linux_practice1/public && touch index.php
+   59  ls
+   60  mv index.php linux_practice1
+   61  ls
+   62  ls linux_practice1
+   63  mv index.php public
+   64  cd linux_practice1
+   65  mv index.php public
+   66  ls
+   67  ls public
+   68  cp index.php index_bk.php
+   69  cd public
+   70  cp index.php index_bk.php
+   71  ls
+   72  cd /root/server_lesson/linux_practice1
+   73  cp -r public tmp
+   74  ls
+   75  ls tmp
+   76  rm tmp/index_bk.php
+   77  ls
+   78  ls tmp
+   79  cd /root/server_lesson
+   80  touch README.md
+   81  vi README.md
+   82  /root
+   83  cd /root
+   84  mkdir -p linux_practice2/documents
+   85  ls
+   86  mv linux_practice2 server_lesson
+   87  ls
+   88  ls server_lesson
+   89  cd server_lesson/linux_practice2
+   90  cd documents
+   91  touch gizumo{01..50}.md
+   92  ls
+   93  cd /root/server_lesson/linux_practice2
+   94  mkdir trash
+   95  ls
+   96  cd documents
+   97  mv gizumo2?.md root/server_lesson/linux_practice2/trash
+   98  cd root/server_lesson
+   99  cd /root/server_lesson
+  100  cd linux_practice2
+  101  mv documents/gizumo2?.md trash
+  102  ls documents
+  103  ls trash
+  104  mv documents/gizumo3?.md trash
+  105  mv documents/gizumo40.md trash
+  106  ls trash
+  107  ls documents
+  108  touch .gitignore
+  109  vi .gitignore
+  110  echo 'history_300' > exec_command.log
+  111  cat exec_command.log
+  112  history_300
+  113  history 300
+  114  echo history 300 >> exec_command.log
+  115  cat exec_command.log
+  116  history 300 > exec_command.log
