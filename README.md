@@ -1,33 +1,33 @@
 
 - ls		 // List
- -- -a   	  // show invisible
- -- -l  	  // show details
+  - -a   	  // show invisible
+  - -l  	  // show details
 - pwd   	 // Print Working Directory 
 - cd    	 // Change Directory
 - mkdir 	 // Make Directory
- -- -p     	  // make all
+  - -p     	  // make all
 - touch 	 // Make File
 - &&    	 // AND
 - cp    	 // Copy
- -- -r   	  // copy directory
+  - -r   	  // copy directory
 - mv    	 // Move
 - rm    	 // Remove
- -- -r   	  // remove directory
- -- -f   	  // no warning
-- *     	 // Wild Card (zero or more characters)
+  - -r   	  // remove directory
+  - -f   	  // no warning
+- &#042;     	 // Wild Card (zero or more characters)
 - ?     	 // Wild Card (one character)
 - cat   	 // Catnate
- -- >   	  // overwriting
- -- >>  	  // end
+  - &#062;   	  // overwriting
+  - &#062;&#062;  	  // end
 - vi    	 // Editer
- -- i    	  // change insert mode
- -- esc 	  // change normal mode
-  --- j  	   // down
-  --- k 	   // up
-  --- h  	   // left
-  --- l 	   // right
-  --- :w 	   // save
-  --- :wq	   // save and exit
-  --- :q! 	   // forced termination
-  --- u   	   // backward
-  --- Ctrl + r	   // forward
+  - i    	  // change insert mode
+  - esc 	  // change normal mode
+    - j  	   // down
+    - k 	   // up
+    - h  	   // left
+    - l 	   // right
+    - :w 	   // save
+    - :wq	   // save and exit
+    - :q! 	   // forced termination
+    - u   	   // backward
+    - Ctrl + r	   // forward
